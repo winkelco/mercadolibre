@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WinkelCo\LaravelMercadoLibre\Socialite;
+namespace WinkelCo\MercadoLibre\Socialite;
 
 use Zephia\MercadoLibre\Entity\User;
 
