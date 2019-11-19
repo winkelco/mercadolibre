@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WinkelCo\LaravelMercadoLibre\Socialite;
+namespace WinkelCo\MercadoLibre\Socialite;
 
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\ProviderInterface;
@@ -17,7 +17,7 @@ use Zephia\MercadoLibre\Client\MercadoLibreClient;
 /**
  * Class MercadoLibreSocialite
  *
- * @package WinkelCo\LaravelMercadoLibre\Socialite
+ * @package WinkelCo\MercadoLibre\Socialite
  * @author  Mauro Moreno<moreno.mauro.emanuel@gmail.com>
  */
 class MercadoLibreSocialite extends AbstractProvider
