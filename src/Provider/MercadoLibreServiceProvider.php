@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WinkelCo\LaravelMercadoLibre\Provider;
+namespace WinkelCo\MercadoLibre\Provider;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
@@ -68,7 +68,7 @@ class MercadoLibreServiceProvider extends ServiceProvider
      */
     public function setupRoutes(Router $router)
     {
-        $router->group(['namespace' => 'WinkelCo\LaravelMercadoLibre\Http\Controllers'], function ($router) {
+        $router->group(['namespace' => 'WinkelCo\MercadoLibre\Http\Controllers'], function ($router) {
             include __DIR__ . '/../../routes/routes.php';
         });
     }
