@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WinkelCo\LaravelMercadoLibre\Http\Controllers;
+namespace WinkelCo\MercadoLibre\Http\Controllers;
 
 use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Class CallbackController
- * @package WinkelCo\LaravelMercadoLibre\Http\Controllers
+ * @package WinkelCo\MercadoLibre\Http\Controllers
  */
 class CallbackController
 {
