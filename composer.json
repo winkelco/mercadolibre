@@ -1,0 +1,21 @@
+{
+  "name": "winkelco/laravel-mercadolibre",
+  "description": "Laravel wrapper for the MercadoLibre API Client",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andres Daza",
+      "email": "webmaster@winkel.com.co"
+    }
+  ],
+  "require": {
+    "zephia/mercadolibre": "^0.1",
+    "laravel/socialite": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "WinkelCo\\LaravelMercadoLibre\\": "src"
+    }
+  }
+}
