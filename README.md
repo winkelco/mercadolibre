@@ -8,7 +8,7 @@ Using [composer](http://getcomposer.org)
 Run the following command and provide the latest stable version:
 
 ```bash
-composer require winkelco/laravel-mercadolibre
+composer require winkelco/mercadolibre
 ```
 
 Then register this service provider with Laravel in config/app.php:
@@ -16,7 +16,7 @@ Then register this service provider with Laravel in config/app.php:
 ```php
 'providers' => [
     ...
-    WinkelCo\LaravelMercadoLibre\Provider\MercadoLibreServiceProvider::class,
+    WinkelCo\MercadoLibre\Provider\MercadoLibreServiceProvider::class,
     ...
 ]
 ```
@@ -24,7 +24,7 @@ Then register this service provider with Laravel in config/app.php:
 Publish config file:
 
 ```bash
-php artisan vendor:publish --provider="WinkelCo\LaravelMercadoLibre\Provider\MercadoLibreServiceProvider" --tag="config"
+php artisan vendor:publish --provider="WinkelCo\MercadoLibre\Provider\MercadoLibreServiceProvider" --tag="config"
 ```
 
 Add **MERCADOLIBRE_APP_KEY** and **MERCADOLIBRE_APP_SECRET** constants to your .env file:
