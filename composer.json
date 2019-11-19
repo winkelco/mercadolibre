@@ -13,6 +13,7 @@
     "zephia/mercadolibre": "^0.1",
     "laravel/socialite": "^4.2"
   },
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "WinkelCo\\MercadoLibre\\": "src"
