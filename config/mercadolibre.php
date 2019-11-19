@@ -44,9 +44,9 @@ return [
     |
     | Defines the route controller class which handles the callback url
     |
-    | Default: '\WinkelCo\LaravelMercadoLibre\Http\Controllers\CallbackController'
+    | Default: '\WinkelCo\MercadoLibre\Http\Controllers\CallbackController'
     |
     */
 
-    'callback_controller' => '\WinkelCo\LaravelMercadoLibre\Http\Controllers\CallbackController',
+    'callback_controller' => '\WinkelCo\MercadoLibre\Http\Controllers\CallbackController',
 ];
