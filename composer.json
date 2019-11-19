@@ -1,5 +1,5 @@
 {
-  "name": "winkelco/laravel-mercadolibre",
+  "name": "winkelco/mercadolibre",
   "description": "Laravel wrapper for the MercadoLibre API Client",
   "type": "library",
   "license": "MIT",
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "WinkelCo\\LaravelMercadoLibre\\": "src"
+      "WinkelCo\\MercadoLibre\\": "src"
     }
   }
 }
