@@ -15,7 +15,7 @@ use Zephia\MercadoLibre\Entity\User;
 /**
  * Class MercadoLibreUser
  *
- * @package WinkelCo\LaravelMercadoLibre\Socialite
+ * @package WinkelCo\MercadoLibre\Socialite
  * @author  Mauro Moreno<moreno.mauro.emanuel@gmail.com>
  */
 class MercadoLibreUser extends User
