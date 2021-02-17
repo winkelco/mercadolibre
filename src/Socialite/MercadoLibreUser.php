@@ -10,7 +10,7 @@
 
 namespace WinkelCo\MercadoLibre\Socialite;
 
-use Zephia\MercadoLibre\Entity\User;
+use WinkelCo\MercadoLibreApi\Entity\User;
 
 /**
  * Class MercadoLibreUser
