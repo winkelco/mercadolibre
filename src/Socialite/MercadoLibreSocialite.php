@@ -12,7 +12,7 @@ namespace WinkelCo\MercadoLibre\Socialite;
 
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\ProviderInterface;
-use Zephia\MercadoLibre\Client\MercadoLibreClient;
+use WinkelCo\MercadoLibreApi\Client\MercadoLibreClient;
 
 /**
  * Class MercadoLibreSocialite
