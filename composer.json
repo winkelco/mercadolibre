@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "winkelco/mercadolibre-api": "^1.0",
+    "winkelco/mercadolibre-api": "^1.1",
     "laravel/socialite": "^4.2|^5.0"
   },
   "autoload": {
