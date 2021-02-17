@@ -13,7 +13,7 @@ namespace WinkelCo\MercadoLibre\Provider;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
 use JMS\Serializer\SerializerBuilder;
-use Zephia\MercadoLibre\Client\MercadoLibreClient;
+use WinkelCo\MercadoLibreApi\Client\MercadoLibreClient;
 
 /**
  * Class MercadoLibreServiceProvider
@@ -43,7 +43,7 @@ class MercadoLibreServiceProvider extends ServiceProvider
         $this->app->bind('meli_api', function () {
             $serializer = SerializerBuilder::create()
                 ->addMetadataDir(
-                    base_path('vendor/zephia/mercadolibre/resources/config/serializer')
+                    base_path('vendor/winkelco/mercadolibre-api/resources/config/serializer')
                 )->build();
             return new MercadoLibreClient([], $serializer);
         });
